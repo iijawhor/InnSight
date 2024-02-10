@@ -1,4 +1,4 @@
 .headerPage {
-  border: 1px solid green;
   height: fit-content;
+  border-bottom: 1px solid gainsboro;
 }
