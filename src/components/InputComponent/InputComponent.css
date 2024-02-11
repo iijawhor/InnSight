@@ -1,0 +1,13 @@
+.inputComponent {
+  position: relative;
+}
+.inputComponentInputField {
+  width: 100%;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  font-weight: 400;
+}
+.inputComponentInputField::placeholder {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}

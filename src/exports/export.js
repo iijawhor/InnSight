@@ -8,6 +8,9 @@ import LanguageIcon from "@mui/icons-material/Language";
 import SearchIcon from "@mui/icons-material/Search";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import NavbarMenu from "../components/NavbarMenu/NavbarMenu";
+import SearchComponent from "../components/SearchComponent/SearchComponent";
+import SearchPage from "../pages/SearchPage/SearchPage";
+import InputComponent from "../components/InputComponent/InputComponent";
 export {
   Container,
   HomePage,
@@ -18,5 +21,8 @@ export {
   LanguageIcon,
   SearchIcon,
   AccountCircleIcon,
-  NavbarMenu
+  NavbarMenu,
+  SearchComponent,
+  SearchPage,
+  InputComponent
 };

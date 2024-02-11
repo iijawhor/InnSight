@@ -5,10 +5,10 @@ function Logo({ className }) {
     <div
       className={`logo ${className}`}
       style={{
-        color: "#A61919",
+        color: "#FF5A5F",
         fontSize: "16px",
-        fontFamily: "system-ui",
-        fontWeight: "550",
+        fontFamily: "Times New Roman, Times, serif",
+        fontWeight: "400",
         letterSpacing: "1px",
         margin: "0",
         padding: "0",
@@ -16,7 +16,7 @@ function Logo({ className }) {
         width: "fit-content"
       }}
     >
-      InnSight
+      Lodigify
     </div>
   );
 }

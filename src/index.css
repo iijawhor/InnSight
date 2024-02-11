@@ -17,7 +17,11 @@ h4,
 h5,
 h6,
 a,
-Link {
+Link,
+input {
+  border: none;
+  padding: 0;
+  outline: none;
   background-color: none;
   list-style: none;
   text-decoration: none;
