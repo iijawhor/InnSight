@@ -11,6 +11,8 @@ import NavbarMenu from "../components/NavbarMenu/NavbarMenu";
 import SearchComponent from "../components/SearchComponent/SearchComponent";
 import SearchPage from "../pages/SearchPage/SearchPage";
 import InputComponent from "../components/InputComponent/InputComponent";
+import fetchFromAPI from "../FetchFromAPI/fetchFromAPI";
+import SearchResults from "../components/SearchResults/SearchResults";
 export {
   Container,
   HomePage,
@@ -24,5 +26,7 @@ export {
   NavbarMenu,
   SearchComponent,
   SearchPage,
-  InputComponent
+  InputComponent,
+  fetchFromAPI,
+  SearchResults
 };
