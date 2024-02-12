@@ -4,7 +4,6 @@ import {
   Logo,
   MenuIcon,
   LanguageIcon,
-  SearchIcon,
   AccountCircleIcon,
   NavbarMenu
 } from "../../exports/export";
@@ -37,7 +36,7 @@ function NavbarComponent() {
         <Logo className="navbarLogo" />
         <p className="navbarItem navbarRightInnSightHome">InnSight Home</p>
         <LanguageIcon
-          classname="navbarIcon navbarItem"
+          className="navbarIcon navbarItem"
           style={{
             color: "black",
             fontSize: "18px",
@@ -47,7 +46,7 @@ function NavbarComponent() {
         />
         <div className="navbarMenu" onClick={() => setToggleMenu(!toggleMenu)}>
           <MenuIcon
-            classname="navbarIcon navbarItem"
+            className="navbarIcon navbarItem"
             style={{
               color: "black",
               fontSize: "18px",
@@ -56,7 +55,7 @@ function NavbarComponent() {
             }}
           />
           <AccountCircleIcon
-            classname="navbarIcon navbarItem"
+            className="navbarIcon navbarItem"
             style={{
               color: "black",
               fontSize: "18px",
