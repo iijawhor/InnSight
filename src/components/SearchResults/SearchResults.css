@@ -1,0 +1,33 @@
+.searchResultsComponent {
+  position: relative;
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.searchesResultContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+}
+.searchResultCard {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 760px) {
+  .searchesResultContainer {
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .searchesResultContainer {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+}
+::-webkit-scrollbar {
+  display: none;
+}

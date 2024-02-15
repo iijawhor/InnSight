@@ -1,0 +1,96 @@
+.cardComponent {
+  width: 100%;
+  position: relative;
+}
+.cardImageContainer {
+  width: 100%;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.cardImages {
+  display: flex;
+  position: relative;
+  gap: 3px;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+.cardImageContainer:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+.cardImage {
+  min-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 220px;
+  border-radius: 10px;
+  position: relative;
+}
+.cardLikeIcon {
+  position: absolute;
+  color: red;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+.cardDetails {
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.cardDetailHeader {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+.cardTitle {
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 0.6px;
+  font-weight: 550;
+  color: rgb(40, 38, 38);
+}
+.cardRating {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.cardRatingIcon {
+  font-size: 20px !important;
+}
+.currency {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+}
+.cardIcon {
+  font-size: 18px;
+}
+.cardRatingNumber,
+.cardPrice {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  color: rgb(40, 38, 38);
+  letter-spacing: 0.2px;
+}
+.cardViews,
+.cardDate {
+  font-size: 13px;
+  font-family: sans-serif;
+  letter-spacing: 0.3px;
+  color: rgb(127, 127, 127);
+}
+.cardPrice > span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 0.5px;
+}
