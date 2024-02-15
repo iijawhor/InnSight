@@ -7,7 +7,6 @@ import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { appStore } from "./store/appStore";
 import { Provider } from "react-redux";
-// import { SearchPage, HomePage } from "./exports/export";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const router = createBrowserRouter([
   {
