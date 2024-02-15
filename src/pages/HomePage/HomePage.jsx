@@ -1,9 +1,10 @@
 import React from "react";
-import { Container, HeaderPage } from "../../exports/export";
+import { Container, HeaderPage, SearchResults } from "../../exports/export";
 function HomePage() {
   return (
     <Container>
       <HeaderPage />
+      <SearchResults />
     </Container>
   );
 }
